@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Pokemon;
+    src: url(../font/Pokemon\ Solid.ttf);
+}
+
+body {
+    background-color: #193A95;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header {
+    width: 100%;
+    background-color: #fff;
+    font-family: Pokemon;
+    color: #193A95;
+    height: 20vh;
+}
+.Header nav{
+    height: inherit;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    height: 20vh;
+}
+.navbar ul li{
+    transition: 0.5s;
+    height: 100%;
+}
+.navbar ul li a{
+    font-size: 3vh;
+    padding: 0 2vh;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.navbar ul li a:visited{
+    color: #193A95;
+}
+.navbar ul li:hover{
+    background-color: #193A95;
+}
+.navbar ul li a:hover{
+    color: #fff;
+ 
+}
+.Header img {
+    width: auto;
+    height: 20vh;
+    display: inline;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Container{
+    width: 40vw;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: -10vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.Footer{
+    width: 100%;
+    background-color: #193A95;
+    height: 30vh;
+}
+.FooterContent{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.FooterContent img{
+    width: auto;
+    height: 20vh;
+    display: inline;
+}
+.FooterKontakt{
+    margin-top: 5vh;
+    padding-right: 1vh;
+    border-right: #fff solid 0.5vh;
+    color: #fff;
+}
+.FooterKontakt h4{ 
+    font-size: 2.5vh;
+}
+.FooterKontakt p{
+    font-size: 2vh;
+}
+.FooterKontakt a {
+    color: #fff;
+}
+#konOdskok{
+    align-self: flex-end;
+    justify-self: flex-start;
+    color: #fff;
+    font-size: 1.5vh; 
+    background-color: #112764;
+    margin-top: 1vh;
+}
+

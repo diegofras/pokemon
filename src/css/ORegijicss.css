@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(../font/Pokemon\ Solid.ttf);
+}
+.ContentRe{
+    background-image: url(../Slike/RegijaSlike/Oregijibg.png);
+    background-repeat: none;
+    background-size: cover;
+}
+.Psi{
+    background-image: url(../Slike/RegijaSlike/Oregiji.png);
+    min-height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Psi h1{
+    font-family: Pokemon;
+    color: white;
+    font-size: 10vh;
+    text-shadow: 1vh 1vh #000000;
+    padding-bottom: 10vh;
+}
+.AboutJohto{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    border: #193A95 solid 0.5vh;
+    align-self: justify;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.AboutJohto h2{
+    font-size: 4vh;
+}
+.AboutJohtoSudoTekst{
+    display: flex;
+    flex-direction: column;
+
+}
+.AboutJohtoSudoTekst p{
+    width: 100%;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+    text-align: justify;
+}
+.AboutJohtoSudoTekst img{
+    height: 18vh;
+    width: 10vw;
+    align-self: center;
+}
+.Povijest {
+    display: flex;
+    flex-direction: column;
+    margin:1vh -8vh;
+    margin-top: 5vh;
+    text-align: justify;
+    border: #000 0.5vh solid;
+    padding: 1vh;
+    color: #fff;
+    background-color: #193A95;
+}
+.Povijest p, .Povijest h3{
+    margin: 2vh 0vh;
+}
+.Povijest p{
+    font-size: 2.5vh;
+}
+.Povijest h2{
+    font-size: 4vh;
+    font-family: Pokemon;
+    color: #fff;
+    margin: 0 auto;
+}
+.Povijest h3{
+    font-size: 3.5vh
+}
+.RuinsOfAlph img{
+    margin: 1vh 0;
+    width: 100%;
+    text-align: center;   
+}
+.BurntTower {
+    margin-top: 5vh;
+}
+.BurntTower img{
+    width: 100%;
+}
+.DestinacijaRegija{
+    width: 100%;
+    height: 75vh;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0.3vh solid black;
+    border-bottom:0.3vh solid black;  
+    background-image: url(../Slike/NaslovnaSlike/Istrazite.png);
+}
+
+.DestinacijaRegija button{
+    background: none;
+    border: solid #fff;
+    padding: 1vh;
+    font-family: Pokemon;
+    color: black;
+    text-shadow: 0.1vh 0.1vh #fff;
+    font-size: 3vh;
+    transition:0.5s;
+    position: absolute;
+    left: 10vw;
+}
+.DestinacijaRegija button:hover{
+    background-color: #fff;
+}

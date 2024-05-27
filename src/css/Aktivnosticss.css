@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(../font/Pokemon\ Solid.ttf);
+}
+.ContentAkt{
+    background-image: url(../Slike/AktivnostiSlike/Aktivnostibg.png);
+    background-repeat: none;
+    background-size: cover;
+}
+.Treneri{
+    background-image: url(../Slike/AktivnostiSlike/GlavnaSIR.png);
+    min-height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Treneri h1{
+    font-family: Pokemon;
+    color: #fff;
+    font-size: 10vh;
+    text-shadow: 1vh 1vh #000000;
+    padding-bottom: 10vh;
+}
+.AktivnostiAbout{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    border: #193A95 solid 0.5vh;
+    justify-content: center ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 6vh;
+}
+.AktivnostiAbout h2{
+    font-size: 4vh;
+}
+.AktivnostiTekstSlika {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AktivnostiTekstSlika p{
+    width: 100%;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+    text-align: justify;
+}
+.AktivnostiTekstSlika img{
+    height: 18vh;
+    width: 10vw;
+    margin-top:3vh
+}
+.GymDio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GymDio h2 {
+    color: #193A95;
+    font-family: Pokemon;
+    margin-bottom: 3vh;
+    font-size: 4vh;
+}
+.GymDio img {
+    height: 35vh;
+}
+.Gymovi{
+    width: 40vw;
+    height: 95vh;
+    border: #193A95 0.5vh solid;
+  
+}
+.KartaGyms{
+    position: relative;
+    height: 60vh;
+    background-repeat: none;
+    background-size: cover;
+    background-image: url(../Slike/AktivnostiSlike/karta.png);
+    border-bottom: #193A95 0.5vh solid;
+}
+.gym{
+    position: absolute;
+    background-color: #193A95;
+    height: 2.5vh;
+    width: 2.5vh;
+    border: 0.2vh solid #000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    color: white;
+}
+.VioletCity{
+    top: 28.9vh;
+    left: 22.8vw;
+}
+.AzaleaTown{
+    top: 55.7vh;
+    left: 19.7vw;
+}
+.GoldenrodCity{
+    top: 42.5vh;
+    left: 32vh;
+}
+.EcruteakCity{
+    top: 17vh;
+    left: 18.5vw;
+}
+.CianwoodCity{
+    top: 41.5vh;
+    left: 7.7vw;
+}
+.OlivineCity{
+    top: 32.5vh;
+    left: 11.3vw;
+}
+.MahoganyTown{
+    top: 21.5vh;
+    left: 25.4vw;
+}
+.BlackthornCity{
+    top: 20vh;
+    left: 32.8vw;
+
+}
+.GymList{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.GymPrvi, .GymDrugi{
+    display: flex;
+    flex-direction: column;
+}
+.GymPrvi h3, .GymDrugi h3{
+    font-size: 2.5vh;
+}
+.GymPrvi h4, .GymDrugi h4{
+    font-size: 2vh;
+}
+.GymPrvi h5, .GymDrugi h5{
+    font-size: 1.5vh;
+}
+
+.Dogadaji{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    margin-left: -8vh;
+    margin-right: -8vh;
+    background-color: #193A95;
+    padding: 2vh;
+    border: solid #000 0.5vh;
+    flex-direction: center;
+    align-items: center;
+}
+.Dogadaji h2{
+    padding-bottom: 2vh;
+    font-size: 3.5vh;
+    color: #fff;
+}
+.PrviRedDog{
+    display: flex;
+    flex-direction: row;
+}
+.BugCatch, .DanceTheater, .Pokeathlon{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    border: 0.5vh solid #000;
+    border-radius:10px;
+    
+}
+.BugCatch p, .DanceTheater p, .Pokeathlon p{
+    font-size: 2vh;
+    color: black;
+    padding: 1vh;
+    text-align: center;
+}
+.BugCatch h2, .DanceTheater h2, .Pokeathlon h2{
+    font-size: 2.5vh;
+    color: black;
+    text-align: center;
+}
+.DanceSlika, .BugSlika, .AthlonSlika{
+    width: inherit;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;   
+    border-bottom: 0.5vh solid #000;
+}
+.DanceSlika{
+    background-image: url(../Slike/AktivnostiSlike/DanceTheater.png);
+}
+.BugSlika{
+    background-image: url(../Slike/AktivnostiSlike/BugCatching.png);
+}
+.AthlonSlika{
+    background-position: center center;
+    background-image: url(../Slike/AktivnostiSlike/Pokeathlon.png);
+}
+.DanceYoutube{
+    width: 100%;
+    height: 75vh;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0.3vh solid black;
+    border-bottom:0.3vh solid black;
+    background-image: url(../Slike/AktivnostiSlike/DanceSong.png);
+}
+.DanceYoutube button{
+    background: none;
+    border: solid #fff;
+    padding: 1vh;
+    font-family: Pokemon;
+    color: #fff;
+    text-shadow: 0.1vh 0.1vh #fff;
+    font-size: 3vh;
+    transition:0.5s;
+    position: absolute;
+    left: 10vw;
+}
+.DanceYoutube button:hover{
+    background-color: #fff;
+    color: #000;
+}
+

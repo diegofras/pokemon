@@ -1,0 +1,221 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(../font/Pokemon\ Solid.ttf);
+}
+
+.ContentNas{
+    background-image: url(../Slike/NaslovnaSlike/naslovnabg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Map {
+    background-image: url(../Slike//NaslovnaSlike/mapa.png);
+    min-height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Map h1{
+    font-family: Pokemon;
+    color: white;
+    font-size: 10vh;
+    text-shadow: 1vh 1vh #000000;
+    padding-bottom: 10vh;
+}
+
+.Uvod{
+    box-sizing: border-box;
+    width: 40vw;
+    align-self: center;
+    border: #193A95 solid 0.5vh;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.Uvod p {
+    padding: 5vh;
+    line-height: 4vh;
+}
+.Uvod img {
+        height: 15vh;
+        padding-right: 5vh;
+}
+.Novosti{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    margin-left: -8vh;
+    margin-right: -8vh;
+    background-color: #193A95;
+    padding: 2vh;
+    border: solid black 0.5vh;
+}
+.Novosti h2{
+    padding-bottom: 2vh;
+    font-size: 3.5vh;
+    color: white;
+}
+.NovostiSlike{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.NovHooh, .NovRocket{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    border: 0.5vh solid #000;
+    border-radius:10px;
+    
+}
+.NovTekst{
+    padding: 2vh
+
+}
+.NovTekst p{
+    font-size: 2vh;
+    text-align: center;
+}
+.NovTekst h3{
+    font-size: 2.5vh;
+    text-align: center;
+}
+.NHSlika, .NRSlika{
+    width: inherit;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;   
+    border-bottom: 0.5vh solid #000;
+}
+
+.NHSlika{
+    background-position: center center;
+    background-image: url(../Slike/NaslovnaSlike/hooh.png);
+}
+.NRSlika{
+    background-image: url(../Slike/NaslovnaSlike/disbanded.png);
+}
+.RegijaContent, .DestinacijaContent, .AktivnostiContent{
+    width: 100%;
+    height: 75vh;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0.3vh solid #000;
+    border-bottom:0.3vh solid #000;
+}
+.RegijaContent{
+    background-image: url(../Slike/NaslovnaSlike/Saznajte.png);
+}
+.DestinacijaContent{
+    background-image: url(../Slike/NaslovnaSlike/Istrazite.png);
+}
+.AktivnostiContent{
+    background-image: url(../Slike/NaslovnaSlike/Radite.png);
+    background-position: center center;
+}
+.RegijaContent button, .DestinacijaContent button, .AktivnostiContent button{
+    background: none;
+    border: solid #fff;
+    padding: 1vh;
+    font-family: Pokemon;
+    color: black;
+    text-shadow: 0.1vh 0.1vh #fff;
+    font-size: 3vh;
+    transition:0.5s;
+    position: absolute;
+    left: 10vw;
+}
+.RegijaContent button:hover, .DestinacijaContent button:hover, .AktivnostiContent button:hover{
+    background-color: #fff;
+}
+.Container2{
+        margin-top: -10vh;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        padding: 10vh 10vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 40vw;
+        margin: 0 auto;
+        
+}
+.Kontakt{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    margin-left: -8vh;
+    margin-right: -8vh;
+    background-color: #193A95;
+    padding: 2vh;
+    border: solid #000 0.5vh;
+}
+.Kontakt h2{
+    color: #fff;
+}
+.Kontakt form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#kon1{
+margin: 3vh 0;
+display: flex;}
+#kon1 input{
+    width: 12vw;
+    border: solid #000 0.5vh;
+    height: 6vh;
+    padding: 1vh;
+}
+
+.Kontakt h3{
+    color: #fff;
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+}
+#kon2 textarea{
+    resize: none;
+    height: 20vh;
+    width: 20vw;
+    border: solid black 0.5vh;
+}
+
+.Kontakt button{
+border: #000 solid 0.5vh;
+color: #193A95;
+background-color: #fff;
+font-family: Pokemon;
+font-size: 3vh;
+margin-top: 4vh;
+width: 10vw;
+height: 10vh;
+transition:0.5s;
+}
+.Kontakt button:hover{
+background-color: #193A95;
+color: #fff;
+}
+
